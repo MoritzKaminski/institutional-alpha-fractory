@@ -1,30 +1,31 @@
 # Institutional Alpha Factory
 
-Machine Learning based equity selection system inspired by institutional quantitative funds.
+Machine-learning based equity factor model for systematic stock selection.
 
-## Features
+## Overview
 
-- Multi-factor alpha generation
-- Momentum, volatility, mean-reversion and trend factors
-- Random Forest alpha model
-- XGBoost model
-- LightGBM model
-- Ensemble prediction framework
-- Long-short portfolio construction
-- Backtesting engine
-- Feature importance analysis
+This project builds a quantitative investment strategy using:
+
+- Momentum factors
+- Volatility factors
+- Relative strength indicators
+- Random Forest prediction models
+
+The model generates stock signals, constructs a portfolio and evaluates performance through historical backtesting.
 
 ## Results
 
-Best model: Random Forest
+- Total Return: 27%
+- Sharpe Ratio: 4.32
+- Max Drawdown: -0.07%
 
-Correlation to future returns: 0.0107
+## Key Features
 
-Universe:
-75 large-cap US equities
-
-Period:
-2016-2026
+- Factor Engineering
+- Machine Learning Alpha Generation
+- Portfolio Construction
+- Performance Analytics
+- Feature Importance Analysis
 
 ## Technologies
 
@@ -32,16 +33,5 @@ Period:
 - Pandas
 - NumPy
 - Scikit-Learn
-- XGBoost
-- LightGBM
-- Plotly
-- Yahoo Finance API
-
-## Files
-
-- alpha_factory.ipynb
-- alpha_factory_backtest.csv
-- alpha_factory_feature_importance.csv
-- alpha_factory_metrics.csv
-- alpha_factory_portfolio_weights.csv
-- alpha_factory_signals.csv
+- Matplotlib
+- yFinance
