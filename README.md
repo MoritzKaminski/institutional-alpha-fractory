@@ -1,5 +1,5 @@
 # Institutional Alpha Factory
-
+![Equity Curve](equity_curve.png)
 Machine-learning based equity factor model for systematic stock selection.
 
 ## Overview
