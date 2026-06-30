@@ -134,3 +134,14 @@ st.header("5. Final takeaway")
 st.success(
     "The project demonstrates a full quantitative investment workflow: stock data collection, factor engineering, machine-learning ranking, portfolio construction, and historical backtesting."
 )
+st.divider()
+
+st.markdown(
+    """
+    <div style="text-align:center; color:#888888; font-size:14px; padding-top:10px;">
+        Institutional Alpha Factory v1.0<br>
+        Developed by Moritz Kaminski · Independent Quantitative Finance Project
+    </div>
+    """,
+    unsafe_allow_html=True
+)
