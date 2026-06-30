@@ -39,7 +39,7 @@ The model combines these signals and ranks the stocks by estimated return potent
 
 st.divider()
 
-st.header("2. Current model output")
+st.header("2. Current Portfolio Recommendations")
 
 portfolio = weights.tail(10).copy()
 
